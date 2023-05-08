@@ -42,10 +42,10 @@ public:
 
     friend Sphere frd(Sphere s1, Sphere s2)
     {
-        double newRadius = pow((3.0/(4.0 * 3.14) * (s1.getVolume() + s2.getVolume())), (1.0/3.0));
+        double nRadius = pow((3.0/(4.0 * 3.14) * (s1.getVolume() + s2.getVolume())), (1.0/3.0));
 
-        Sphere newSphere(newRadius);
-        return newSphere;
+        Sphere nSphere(nRadius);
+        return nSphere;
     }
 };
 
